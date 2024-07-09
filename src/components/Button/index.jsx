@@ -7,7 +7,7 @@ const PrimaryButton = ({ title }) => {
     <>
       <div className="">
         <button className="btn-31 rounded-full">
-          <div className="text-container flex gap-2 items-center px-5 py-3">
+          <div className="text-container flex gap-2 items-center px-5 py-2">
             <p className="text text-white">{title}</p>
             <div className="w-10 h-10 mx-auto rounded-full bg-white hover:z-10">
               <GoArrowRight className=" w-10 h-10 text-black p-2" />

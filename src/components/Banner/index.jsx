@@ -7,7 +7,7 @@ const Banner = () => {
     <>
       <div className="md:flex items-center justify-between px-4 md:px-6 lg:px-10 relative py-20">
         <section>
-          <div className="-rotate-12 absolute top-[100px]">
+          <div className="-rotate-12 absolute top-[80px]">
             <button className=" font-medium border px-5 py-2 border-[#1740E8] rounded-md">
               Welcome To
             </button>
@@ -25,7 +25,7 @@ const Banner = () => {
               growing.
             </p>
           </div>
-          <div className=" flex items-center mt-8">
+          <div className=" flex items-center mt-12">
             <div>
               <PrimaryButton title="Get Started" />
             </div>
