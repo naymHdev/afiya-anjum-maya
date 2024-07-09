@@ -1,6 +1,7 @@
 import AboutUs from "@/components/AboutUs";
 import Banner from "@/components/Banner";
 import Services from "@/components/Services";
+import ServicesCategory from "@/components/ServicesCategory";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <Banner />
         <Services />
         <AboutUs />
+        <ServicesCategory />
       </div>
     </main>
   );

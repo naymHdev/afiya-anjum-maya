@@ -21,3 +21,34 @@ export const services = [
       "Get high rankings with multi-team collaboration that will help you optimize off-page SEO.",
   },
 ];
+
+export const coreServices = [
+  {
+    id: 1,
+    icon: "/seo-icon.png",
+    title: "SEO Marketing",
+    description:
+      "SEO Grow Your Business with Our SEO Agency on the search engine’s results page, This means that when your",
+  },
+  {
+    id: 2,
+    icon: "/content-icon.png",
+    title: "Content Marketing",
+    description:
+      "SEO Grow Your Business with Our SEO Agency on the search engine’s results page, This means that when your",
+  },
+  {
+    id: 3,
+    icon: "/digital-icon.png",
+    title: "Digital Marketing",
+    description:
+      "Digital Marketing Business with Our SEO Agency on the search engine’s results page, This means that when your",
+  },
+  {
+    id: 4,
+    icon: "/email-marketing-icon.png",
+    title: "Email Marketing",
+    description:
+      " target customers search for products and services that your industry offers to find your website. Our approach to SEO is uniquely built around what we know works…and what we know doesn’t work. With over 200 verified factors […]    ",
+  },
+];

@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
 import PrimaryButton from "../Button";
+import Marquee from "react-fast-marquee";
 
 const AboutUs = () => {
   return (
@@ -60,6 +61,16 @@ const AboutUs = () => {
           </div>
         </section>
       </div>
+
+      {/* Marque  */}
+      <section className=" mt-20">
+        <Marquee>
+          <div className=" text-primary-text text-6xl font-extrabold flex items-center gap-8">
+            <span>.Marketing</span> <span>.Digital</span>
+            <span>.SEO</span> <span>.Data Analysis</span>
+          </div>
+        </Marquee>
+      </section>
     </>
   );
 };
