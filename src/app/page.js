@@ -1,3 +1,4 @@
+import AboutUs from "@/components/AboutUs";
 import Banner from "@/components/Banner";
 import Services from "@/components/Services";
 
@@ -7,6 +8,7 @@ export default function Home() {
       <div>
         <Banner />
         <Services />
+        <AboutUs />
       </div>
     </main>
   );
