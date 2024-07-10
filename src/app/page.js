@@ -4,6 +4,7 @@ import Services from "@/components/Services";
 import ServicesCategory from "@/components/ServicesCategory";
 import WhatWeDo from "@/components/WhatWeDo";
 import WorkProcess from "@/components/WorkProcess";
+import Pricing from "@/components/Pricing";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <ServicesCategory />
         <WhatWeDo />
         <WorkProcess />
+        <Pricing />
       </div>
     </main>
   );
