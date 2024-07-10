@@ -24,6 +24,7 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "custom-gradient": "linear-gradient(to right, #fa690e, #fb972d)",
         "newsletter-bg": "url('/news-bg.jpeg')",
+        "footer-bg": "url('/footer-bg.jpg')",
       },
     },
   },
