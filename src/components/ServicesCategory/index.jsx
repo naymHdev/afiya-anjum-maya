@@ -1,6 +1,7 @@
 import { coreServices } from "@/data/data";
 import Image from "next/image";
 import React from "react";
+import { RxArrowTopRight } from "react-icons/rx";
 
 const ServicesCategory = () => {
   return (
@@ -15,18 +16,34 @@ const ServicesCategory = () => {
             <div className=" absolute right-0">
               <Image
                 src="/services-section-image.png"
-                width={400}
-                height={400}
+                width={500}
+                height={500}
                 alt="services"
               />
             </div>
           </section>
           <section>
-            <div>
+            <div className=" grid grid-cols-1 md:grid-cols-2 gap-6">
               {coreServices?.map((itm) => (
-                <div key={itm.id}>
-                  <div>
+                <div
+                  key={itm.id}
+                  className="shadow-xl relative rounded-2xl p-5 mt-20 hover:text-white"
+                >
+                  <div className=" border-none shadow-sm rounded-full p-8 bg-gradient-to-r from-[#FBEDE7] to-[#FEF3EA] absolute -top-14">
                     <Image src={itm.icon} width={50} height={50} alt="Icon" />
+                  </div>
+                  <div className=" space-y-6 mt-16">
+                    <h2 className=" text-primary-text text-xl font-bold">
+                      {itm.title}
+                    </h2>
+                    <p className=" text-secondary-text font-medium">
+                      {itm.description.slice(0, 110)}
+                    </p>
+                  </div>
+                  <div className=" py-7">
+                    <button className=" bg-gradient-to-r from-[#2661ED] hover:from-[#FA6B10] hover:to-[#FB952C] to-[#53C3FB] rounded-full p-3">
+                      <RxArrowTopRight className=" text-white text-3xl" />
+                    </button>
                   </div>
                 </div>
               ))}

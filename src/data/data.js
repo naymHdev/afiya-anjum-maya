@@ -49,6 +49,6 @@ export const coreServices = [
     icon: "/email-marketing-icon.png",
     title: "Email Marketing",
     description:
-      " target customers search for products and services that your industry offers to find your website. Our approach to SEO is uniquely built around what we know works…and what we know doesn’t work. With over 200 verified factors […]    ",
+      " target customers search for products and services that your industry offers to find your website. Our approach to SEO is uniquely built around what we know works…and what we know doesn’t work. With over 200 verified factors ...",
   },
 ];
