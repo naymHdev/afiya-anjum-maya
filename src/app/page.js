@@ -5,6 +5,8 @@ import ServicesCategory from "@/components/ServicesCategory";
 import WhatWeDo from "@/components/WhatWeDo";
 import WorkProcess from "@/components/WorkProcess";
 import Pricing from "@/components/Pricing";
+import WhyChooseUs from "@/components/WhyChooseUs";
+import NewsLatter from "@/components/NewsLatter";
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
         <WhatWeDo />
         <WorkProcess />
         <Pricing />
+        <WhyChooseUs />
+        <NewsLatter />
       </div>
     </main>
   );

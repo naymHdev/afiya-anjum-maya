@@ -1,6 +1,5 @@
 import React from "react";
 import { BsCheck2Circle } from "react-icons/bs";
-import PrimaryButton from "../Button";
 
 const PricingCard = () => {
   return (
@@ -40,7 +39,9 @@ const PricingCard = () => {
             </p>
           </div>
           <div className=" flex items-center justify-center mt-8">
-            <PrimaryButton title="Choose Plan" />
+            <button className=" bg-custom-gradient w-full py-3 text-white font-medium rounded-full">
+              Choose Plan
+            </button>
           </div>
         </div>
         {/* Premium Plan Card */}
@@ -78,7 +79,9 @@ const PricingCard = () => {
             </p>
           </div>
           <div className=" flex items-center justify-center mt-12">
-            <PrimaryButton title="Choose Plan" />
+            <button className=" bg-gradient-to-r from-blue-600 to-blue-200 border-none w-full py-3 text-white font-medium rounded-full">
+              Choose Plan
+            </button>
           </div>
         </div>
         {/* Advanced card */}
@@ -117,7 +120,9 @@ const PricingCard = () => {
             </p>
           </div>
           <div className=" flex items-center justify-center mt-12">
-            <PrimaryButton title="Choose Plan" />
+            <button className=" bg-custom-gradient border-none w-full py-3 text-white font-medium rounded-full">
+              Choose Plan
+            </button>
           </div>
         </div>
       </div>

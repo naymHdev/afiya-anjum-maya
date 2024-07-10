@@ -11,7 +11,7 @@ const WhatWeDo = () => {
         <div className="grid md:flex items-center justify-between gap-10">
           <section className=" flex-1">
             <p className="py-3 text-sm font-semibold text-[#F68124]">
-              WHAT WE DO
+              @ WHAT WE DO
             </p>{" "}
             <h2 className=" text-primary-text text-6xl font-semibold">
               SEO Analytics & Strategy Skill

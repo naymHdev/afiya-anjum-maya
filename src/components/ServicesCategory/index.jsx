@@ -10,7 +10,7 @@ const ServicesCategory = () => {
       <div className=" p-4 md:p-6 lg:p-10 mt-24">
         <div className="gap-8 grid grid-cols-1 md:grid-cols-2">
           <section className=" relative">
-            <p className="text-[#FA7012] font-medium text-sm py-2">SERVICES</p>
+            <p className="text-[#FA7012] font-medium text-sm py-2">@ SERVICES</p>
             <h1 className=" text-primary-text text-6xl font-semibold leading-[70px] mb-10">
               Features Loved Our Digital Marketing Services!
             </h1>

@@ -20,7 +20,7 @@ const AboutUs = () => {
           />
         </section>
         <section>
-          <p className="text-[#FA8120] font-semibold text-sm">ABOUT US</p>
+          <p className="text-[#FA8120] font-semibold text-sm">@ ABOUT US</p>
           <div>
             <h2 className=" text-primary-text text-3xl font-bold mt-2">
               Everything Starts With A Marketing Agency.
