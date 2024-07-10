@@ -28,9 +28,9 @@ const NewsLatter = () => {
             </div>
           </div>
           <div className=" col-span-full md:col-span-5">
-            <div className=" border rounded-2xl h-full shadow-md">
-              <div className=" mt-20 w-full mx-auto">
-                <h2 className=" text-3xl font-bold text-black text-center">
+            <div className=" border rounded-2xl h-full shadow-md bg-newsletter-bg bg-cover bg-no-repeat">
+              <div className=" mt-[150px] w-full mx-auto">
+                <h2 className=" text-3xl font-bold text-white text-center">
                   Want to know your SEO Score?
                 </h2>
                 <div className="bg-white rounded-full flex items-center justify-between p-2 shadow-lg max-w-3xl mx-auto w-10/12 mt-8">
