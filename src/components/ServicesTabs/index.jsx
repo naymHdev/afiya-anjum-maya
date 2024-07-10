@@ -1,37 +1,54 @@
 import { allServicesData } from "@/data/data";
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from "@headlessui/react";
+import Image from "next/image";
 
 export default function ServicesTabs() {
   return (
-    <div className="flex h-screen w-full justify-center pt-24 px-4">
-      <div className="w-full max-w-md">
+    <div className="mt-16 md:mt-28 px-4 md:px-6 lg:px-10">
+      <div className="">
         <TabGroup>
-          <TabList className="flex gap-4">
+          <TabList className="flex items-center justify-center gap-3 border-none py-4 rounded-full bg-[#FDFDFD] shadow-sm w-full md:w-1/2 mx-auto">
             {allServicesData?.map(({ category }) => (
               <Tab
                 key={category}
-                className="rounded-full py-1 px-3 text-sm/6 font-semibold text-black focus:outline-none data-[selected]:bg-white/10 data-[hover]:bg-white/5 data-[selected]:data-[hover]:bg-white/10 data-[focus]:outline-1 data-[focus]:outline-white"
+                className="shadow-sm text-primary-text border-none font-semibold rounded-full px-4 py-1 bg-[#F5F7FC] data-[selected]:text-white data-[selected]:bg-custom-gradient focus:outline-none"
               >
                 {category}
               </Tab>
             ))}
           </TabList>
-          <TabPanels className="mt-3">
+          <TabPanels className="mt-16">
             {allServicesData?.map(({ category, content }) => (
-              <TabPanel key={category} className="rounded-xl bg-white/5 p-3">
-                <ul>
+              <TabPanel key={category} className="">
+                <div className=" grid grid-cols-1 md:grid-cols-3 gap-5">
                   {content?.map((post) => (
-                    <li
+                    <div
                       key={post.id}
-                      className="relative rounded-md p-3 text-sm/6 transition hover:bg-white/5"
+                      className=" border rounded-3xl p-5 shadow-md hover:shadow-2xl"
                     >
-                      <a href="#" className="font-semibold text-black">
-                        <span className="absolute inset-0" />
-                        {post.title}
-                      </a>
-                    </li>
+                      <div>
+                        <Image
+                          className=" rounded-3xl"
+                          src={post.image}
+                          width={400}
+                          height={400}
+                          alt="content image"
+                        />
+                        <div className=" mt-7 space-y-3">
+                          <p className=" text-sm font-semibold text-secondary-text">
+                            {post.category}
+                          </p>
+                          <h2 className=" text-2xl font-semibold text-primary-text">
+                            {post.title}
+                          </h2>
+                          <p className=" text-sm font-medium text-secondary-text">
+                            {post.description.slice(0, 200)}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
                   ))}
-                </ul>
+                </div>
               </TabPanel>
             ))}
           </TabPanels>
