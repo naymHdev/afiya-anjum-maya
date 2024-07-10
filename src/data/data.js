@@ -83,3 +83,98 @@ export const workingProcess = [
       "We provide regular, transparent reports that detail the results achieved and the impact of our efforts on your business's bottom line.",
   },
 ];
+
+export const allServicesData = [
+  {
+    category: "Marketing",
+    content: [
+      {
+        title: "SEO Optimization Strategies",
+        description:
+          "Learn the best practices for optimizing your website for search engines.",
+        category: "Marketing",
+        image: "/seo-services.jpg",
+      },
+      {
+        title: "Content Marketing Strategies",
+        description:
+          "Discover effective strategies for creating and distributing valuable content.",
+        category: "Marketing",
+        image: "/seo-services.jpg",
+      },
+
+      {
+        title: "Effective Social Media Campaigns",
+        description:
+          "Learn how to plan and execute successful social media campaigns.",
+        category: "Marketing",
+        image: "/seo-services.jpg",
+      },
+      {
+        title: "Email Marketing Campaigns",
+        description:
+          "Develop and implement effective email marketing strategies to reach your target audience.",
+        category: "Marketing",
+        image: "/seo-services.jpg",
+      },
+    ],
+  },
+  {
+    category: "Branding",
+    content: [
+      {
+        title: "Building a Strong Brand Identity",
+        description:
+          "Explore techniques for creating and maintaining a powerful brand identity.",
+        category: "Branding",
+        image: "/seo-services.jpg",
+      },
+      {
+        title: "Branding Through Storytelling",
+        description:
+          "Utilize storytelling to enhance your brand's image and connect with your audience.",
+        category: "Branding",
+        image: "/seo-services.jpg",
+      },
+    ],
+  },
+  {
+    category: "Design",
+    content: [
+      {
+        title: "UI/UX Design Principles",
+        description:
+          "Understand the fundamental principles of user interface and user experience design.",
+        category: "Design",
+        image: "/seo-services.jpg",
+      },
+      {
+        title: "Responsive Web Design",
+        description:
+          "Create web designs that work seamlessly on various devices and screen sizes.",
+        category: "Design",
+        image: "/seo-services.jpg",
+      },
+    ],
+  },
+  {
+    category: "Development",
+    content: [
+      {
+        title: "Full-Stack Web Development",
+        description:
+          "Gain knowledge in developing both front-end and back-end of web applications.",
+        category: "Development",
+        image: "/seo-services.jpg",
+      },
+
+      {
+        title: "Advanced JavaScript Techniques",
+        description:
+          "Master advanced JavaScript concepts for dynamic and interactive web applications.",
+        category: "Development",
+        image: "/seo-services.jpg",
+      },
+    ],
+  },
+];

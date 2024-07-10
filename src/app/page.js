@@ -7,6 +7,7 @@ import WorkProcess from "@/components/WorkProcess";
 import Pricing from "@/components/Pricing";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import NewsLatter from "@/components/NewsLatter";
+import ServicesTabs from "@/components/ServicesTabs";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <WorkProcess />
         <Pricing />
         <WhyChooseUs />
+        <ServicesTabs />
         <NewsLatter />
       </div>
     </main>
