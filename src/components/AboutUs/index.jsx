@@ -31,7 +31,7 @@ const AboutUs = () => {
               writing.
             </p>
           </div>
-          <div className="mt-5 grid grid-cols-2 gap-4 text-primary-text font-medium">
+          <div className="mt-5 grid grid-cols-1 lg:grid-cols-2 gap-4 text-primary-text font-medium">
             <button className=" text-center px-6 rounded-full shadow-sm py-4 flex items-center gap-2">
               <span>
                 <FaCheckCircle className=" text-2xl text-[#FA8F29]" />
@@ -66,7 +66,7 @@ const AboutUs = () => {
       {/* Marque  */}
       <section className=" mt-20">
         <Marquee>
-          <div className=" text-primary-text text-6xl font-extrabold flex items-center gap-8">
+          <div className=" text-primary-text text-4xl md:text-6xl font-extrabold flex items-center gap-8">
             <span>.Marketing</span> <span>.Digital</span>
             <span>.SEO</span> <span>.Data Analysis</span>
           </div>

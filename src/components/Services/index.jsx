@@ -11,7 +11,7 @@ const Services = () => {
           {services?.map((itm) => (
             <div
               key={itm.id}
-              className=" text-center p-8 hover:rounded-xl hover:shadow-2xl hover:transition hover:transform"
+              className=" text-center p-4 md:p-8 hover:rounded-xl hover:shadow-2xl hover:transition hover:transform"
             >
               <div>
                 <Image
