@@ -18,7 +18,7 @@ const Banner = () => {
             priority
           />
         </section>
-        <section className=" order-last">
+        <section>
           <div className="-rotate-12 absolute bottom-[470px] md:hidden lg:top-[115px]">
             <button className=" font-medium border px-5 py-2 border-[#1740E8] rounded-md">
               Welcome To
