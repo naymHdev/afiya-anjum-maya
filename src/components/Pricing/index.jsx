@@ -10,11 +10,11 @@ const Pricing = () => {
           <div className=" col-span-full md:col-span-4">
             <PricingCard />
           </div>
-          <div className=" col-span-full md:col-span-2">
+          <div className=" col-span-full md:col-span-2 order-first md:order-last">
             <p className=" text-[#FB8221] text-sm font-bold my-5">
               @ PRICING PLAN
             </p>
-            <h2 className=" text-6xl font-semibold text-primary-text">
+            <h2 className="text-3xl md:text-6xl font-semibold text-primary-text">
               Unbeatable Pricing Find Your Perfect Plan Now
             </h2>
           </div>

@@ -7,7 +7,7 @@ export default function ServicesTabs() {
     <div className="mt-16 md:mt-28 px-4 md:px-6 lg:px-10">
       <div className="">
         <TabGroup>
-          <TabList className="flex flex-wrap items-center justify-center gap-3 border-none py-4 rounded-full bg-[#FDFDFD] shadow-sm w-full md:w-1/2 mx-auto">
+          <TabList className="flex flex-wrap items-center justify-center gap-3 border-none py-4 md:rounded-full bg-[#FDFDFD] md:shadow-sm w-full md:w-1/2 mx-auto">
             {allServicesData?.map(({ category }) => (
               <Tab
                 key={category}
@@ -17,7 +17,7 @@ export default function ServicesTabs() {
               </Tab>
             ))}
           </TabList>
-          <TabPanels className="mt-16">
+          <TabPanels className=" mt-8 md:mt-16">
             {allServicesData?.map(({ category, content }) => (
               <TabPanel key={category} className="">
                 <div className=" grid grid-cols-1 md:grid-cols-3 gap-5">

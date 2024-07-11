@@ -4,7 +4,7 @@ import { BsCheck2Circle } from "react-icons/bs";
 const PricingCard = () => {
   return (
     <>
-      <div className=" grid grid-cols-1 md:grid-cols-3 gap-2">
+      <div className=" grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-2">
         {/* Basic Plan card */}
         <div className=" rounded-3xl shadow-md px-5 py-8">
           <h1 className=" text-4xl font-bold text-primary-text">Basic</h1>

@@ -13,7 +13,7 @@ const WhatWeDo = () => {
             <p className="py-3 text-sm font-semibold text-[#F68124]">
               @ WHAT WE DO
             </p>{" "}
-            <h2 className=" text-primary-text text-6xl font-semibold">
+            <h2 className=" text-primary-text text-3xl md:text-6xl font-semibold">
               SEO Analytics & Strategy Skill
             </h2>
             <p className=" mt-5 text-secondary-text font-medium">

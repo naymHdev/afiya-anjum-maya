@@ -21,7 +21,7 @@ const WhyChooseUs = () => {
             <h4 className=" my-5 text-sm font-semibold text-[#FB8B25]">
               @ WHY CHOOSE US
             </h4>
-            <h2 className=" text-5xl font-semibold text-primary-text">
+            <h2 className=" text-3xl md:text-5xl font-semibold text-primary-text">
               We Follow <span className=" text-[#FB8B25]">Best Practice</span>{" "}
               In Our Company
             </h2>
