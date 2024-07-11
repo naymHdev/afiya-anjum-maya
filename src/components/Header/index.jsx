@@ -67,7 +67,7 @@ export default function Header() {
             href="#"
             className="text-sm font-semibold leading-6 text-gray-900 flex items-center gap-3"
           >
-            Let's Chat
+            Lets Chat
             <span>
               <BsArrowRightCircle className=" text-3xl text-orange-400" />
             </span>
@@ -134,7 +134,7 @@ export default function Header() {
                   href="#"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                 >
-                  Let's Chat
+                  Lets Chat
                 </a>
               </div>
             </div>
