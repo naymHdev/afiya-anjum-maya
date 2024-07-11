@@ -5,12 +5,14 @@ import {
   FaInstagram,
   FaPinterest,
 } from "react-icons/fa";
+import { MdCall, MdLocationPin, MdEmail } from "react-icons/md";
 import Wave from "react-wavify";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
   return (
-    <footer className="relative bg-purple-800 text-white py-12 mt-28">
-      <div className="absolute inset-x-0 -top-16">
+    <footer className="relative bg-purple-800 text-white py-10 mt-28">
+      <div className="absolute inset-x-0 -top-20 hidden">
         <Wave
           fill="#6B21A8"
           paused={false}
@@ -23,21 +25,123 @@ const Footer = () => {
           }}
         />
       </div>
-      <div className=" px-4 md:px-6 lg:px-10 relative z-10">
-        <div className="flex flex-wrap justify-between">
-          <div className="w-full lg:w-1/3 mb-6 lg:mb-0">
-            <h2 className="text-xl font-bold mb-2">DigiCove</h2>
-            <address className="not-italic mb-4">
-              123 Anywhere St., Any City,
-              <br />
-              12345 Any State
-            </address>
-            <p className="mb-4">123-456-7890</p>
-            <a href="mailto:support@digicove.com" className="hover:underline">
-              support@digicove.com
-            </a>
+
+      <section className=" px-4 md:px-6 lg:px-10">
+        <div className=" grid grid-cols-1 md:grid-cols-3 gap-5">
+          {/* Fist section  || in address section */}
+          <div>
+            <div className="mb-6 lg:mb-0 space-y-4">
+              <div className=" flex items-center gap-2">
+                <MdLocationPin className=" text-xl text-[#FB972D]" />
+                <address className="not-italic text-sm">
+                  123 Anywhere St., Any City, 12345 Any State
+                </address>
+              </div>
+              <div className=" flex items-center gap-2">
+                <MdCall className=" text-xl text-[#FB972D]" />
+                <p className=" text-sm">123-456-7890</p>
+              </div>
+              <div className=" flex items-center gap-2">
+                <MdEmail className=" text-xl text-[#FB972D]" />
+                <a
+                  href="mailto:support@digicove.com"
+                  className="hover:underline text-sm"
+                >
+                  support@digicove.com
+                </a>
+              </div>
+            </div>
+            {/* Social media's */}
+            <div className="mt-24 flex items-center gap-5">
+              <div>
+                <h2 className=" text-xl font-semibold">Follow Us</h2>
+              </div>
+              <div className="flex space-x-2">
+                <div className=" bg-[#9842dd] rounded-full p-3">
+                  <a href="#" className="hover:opacity-75">
+                    <FaFacebook size={15} />
+                  </a>
+                </div>
+                <div className=" bg-[#9842dd] rounded-full p-3">
+                  <a href="#" className="hover:opacity-75">
+                    <FaGoogle size={15} />
+                  </a>
+                </div>
+                <div className=" bg-[#9842dd] rounded-full p-3">
+                  <a href="#" className="hover:opacity-75">
+                    <FaTwitter size={15} />
+                  </a>
+                </div>
+                <div className=" bg-[#9842dd] rounded-full p-3">
+                  <a href="#" className="hover:opacity-75">
+                    <FaInstagram size={15} />
+                  </a>
+                </div>
+                <div className=" bg-[#9842dd] rounded-full p-3">
+                  <a href="#" className="hover:opacity-75">
+                    <FaPinterest size={15} />
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="w-full lg:w-1/3 mb-6 lg:mb-0">
+
+          {/* Second section  || in menus section */}
+          <div className=" flex justify-between">
+            <div>
+              <h2 className="text-xl font-bold mb-2">Menu</h2>
+              <ul>
+                <li>
+                  <a href="#" className="hover:underline">
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Blog
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Pricing
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Contact Us
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h2 className="text-xl font-bold mb-2">Quick Links</h2>
+              <ul>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Privacy Policy
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Terms & Conditions
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Cookie Policy
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* Third section  || in subscription section */}
+          <div>
             <h2 className="text-xl font-bold mb-2">
               Subscribe to Our Newsletter
             </h2>
@@ -62,80 +166,25 @@ const Footer = () => {
               </div>
             </form>
           </div>
+        </div>
+      </section>
 
-          <div className="w-full lg:w-1/6 mb-6 lg:mb-0">
-            <h2 className="text-xl font-bold mb-2">Menu</h2>
-            <ul>
-              <li>
-                <a href="#" className="hover:underline">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Services
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Pricing
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Contact Us
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="w-full lg:w-1/6">
-            <h2 className="text-xl font-bold mb-2">Quick Links</h2>
-            <ul>
-              <li>
-                <a href="#" className="hover:underline">
-                  Privacy Policy
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Terms & Conditions
-                </a>
-              </li>
-              <li>
-                <a href="#" className="hover:underline">
-                  Cookie Policy
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div className="mt-6 flex justify-between items-center">
-          <div className="flex space-x-4">
-            <a href="#" className="hover:opacity-75">
-              <FaFacebook size={24} />
+      <div className=" my-10 border border-b border-[#FB923C] w-full border-dashed" />
+
+      {/* Copyrights section */}
+      <div className=" flex items-center justify-center gap-1">
+        <p className="text-sm">
+          © {currentYear} Company. All rights reserved by
+          <span>
+            <a
+              className=" px-1 text-[#FB923C]"
+              href="https://naym-official.vercel.app"
+            >
+              naymHdev
             </a>
-            <a href="#" className="hover:opacity-75">
-              <FaGoogle size={24} />
-            </a>
-            <a href="#" className="hover:opacity-75">
-              <FaTwitter size={24} />
-            </a>
-            <a href="#" className="hover:opacity-75">
-              <FaInstagram size={24} />
-            </a>
-            <a href="#" className="hover:opacity-75">
-              <FaPinterest size={24} />
-            </a>
-          </div>
-          <p className="text-sm">
-            Copy@ 2023 DigiCove. All rights reserved by BrandCove Themes
-          </p>
-        </div>
+          </span>
+          .
+        </p>
       </div>
     </footer>
   );
