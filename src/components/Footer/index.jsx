@@ -13,17 +13,17 @@ import "./footer.css";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="relative bg-gradient-to-r from-[#31077D] to-[#6340C0] text-white py-10 mt-28">
-      <div className="absolute inset-x-0 -top-20 hidden">
+    <footer className="relative bg-gradient-to-b from-[#31077D] to-[#6340C0] text-white py-10 mt-56">
+      <div className="absolute inset-x-0 -top-[150px]">
         <Wave
-          fill="#6B21A8"
+          fill="#33097E"
           paused={false}
           style={{ display: "flex" }}
           options={{
             height: 20,
-            amplitude: 20,
+            amplitude: 30,
             speed: 0.15,
-            points: 3,
+            points: 4,
           }}
         />
       </div>
@@ -41,24 +41,24 @@ const Footer = () => {
               </div>
               <div className=" flex items-center gap-2">
                 <MdCall className=" text-xl text-[#FB972D]" />
-                <p className=" text-sm">123-456-7890</p>
+                <p className=" text-sm menu-item">123-456-7890</p>
               </div>
               <div className=" flex items-center gap-2">
                 <MdEmail className=" text-xl text-[#FB972D]" />
                 <a
                   href="mailto:support@digicove.com"
-                  className="hover:underline text-sm"
+                  className="menu-item text-sm"
                 >
                   support@digicove.com
                 </a>
               </div>
             </div>
             {/* Social media's */}
-            <div className="mt-24 flex items-center gap-5">
+            <div className="mt-24 grid md:flex items-center md:justify-center gap-5">
               <div>
                 <h2 className=" text-xl font-semibold">Follow Us</h2>
               </div>
-              <div className="flex space-x-2">
+              <div className="flex md:justify-center items-center space-x-2">
                 <div className=" bg-[#9842dd] rounded-full p-3">
                   <a href="#" className="hover:opacity-75">
                     <FaFacebook size={15} />
@@ -89,7 +89,7 @@ const Footer = () => {
           </div>
 
           {/* Second section  || in menus section */}
-          <div className=" flex justify-between">
+          <div className=" flex justify-between lg:justify-evenly">
             <div>
               {/* <h2 className="text-xl font-bold mb-2">Menu</h2> */}
               <ul className="space-y-3 font-medium">
@@ -155,7 +155,7 @@ const Footer = () => {
 
             {/* Newsletter form */}
             <form>
-              <div className="flex relative border rounded-xl">
+              <div className="flex relative border rounded-xl mt-10">
                 <div>
                   <input
                     className=" px-5 py-7 focus:outline-none border-none bg-transparent text-white"
@@ -167,7 +167,7 @@ const Footer = () => {
                 </div>
                 <div className=" absolute top-4 right-2">
                   <button className=" text-white bg-custom-gradient flex items-center gap-3 font-medium rounded-xl px-4 py-3">
-                    Subscribe <TfiArrowTopRight size={16} />
+                    Subscribe <TfiArrowTopRight size={19} />
                   </button>
                 </div>
               </div>
@@ -179,7 +179,7 @@ const Footer = () => {
       <div className=" my-10 border border-b border-[#FB923C] w-full border-dashed" />
 
       {/* Copyrights section */}
-      <div className=" flex items-center justify-center gap-1">
+      <div className=" flex items-center text-center px-5 justify-center gap-1">
         <p className="text-sm">
           © {currentYear} Company. All rights reserved by
           <span>

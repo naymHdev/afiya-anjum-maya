@@ -29,23 +29,23 @@ const NewsLatter = () => {
           </div>
           <div className=" col-span-full md:col-span-5">
             <div className=" border rounded-2xl h-full shadow-md bg-newsletter-bg bg-cover bg-no-repeat">
-              <div className=" mt-[150px] w-full mx-auto">
-                <h2 className=" text-3xl font-bold text-white text-center">
+              <div className=" md:mt-[150px] py-6 w-full mx-auto">
+                <h2 className=" text-xl tmd:ext-3xl font-semibold md:font-bold text-white text-center">
                   Want to know your SEO Score?
                 </h2>
-                <div className="bg-white rounded-full flex items-center justify-between p-2 shadow-lg max-w-3xl mx-auto w-10/12 mt-8">
+                <div className="bg-white rounded-full grid md:flex items-center justify-center md:justify-between p-2 shadow-lg mx-auto md:w-10/12 mt-8">
                   <input
                     type="text"
                     placeholder="Your Website URL"
-                    className="flex-grow p-4 text-gray-700 rounded-l-full focus:outline-none"
+                    className="flex-grow p-4 text-gray-700 border md:border-none rounded-full md:rounded-l-full focus:outline-none"
                   />{" "}
                   |
                   <input
                     type="email"
-                    placeholder="Email"
-                    className="flex-grow p-4 text-gray-700 focus:outline-none"
+                    placeholder="Enter your Email"
+                    className="flex-grow border md:border-none rounded-full md:rounded-none p-4 text-gray-700 focus:outline-none"
                   />
-                  <button className="bg-red-500 text-white py-2 px-6 rounded-full flex items-center justify-center hover:bg-red-600 transition-colors">
+                  <button className="bg-red-500 mt-2 md:mt-0 text-white py-2 px-6 rounded-full flex items-center justify-center hover:bg-red-600 transition-colors">
                     Start Now
                     <svg
                       className="w-6 h-6 ml-2"

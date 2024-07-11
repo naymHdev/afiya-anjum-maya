@@ -41,8 +41,6 @@ const Banner = () => {
             objectFit="cover"
             height={800}
             priority
-            placeholder="blur"
-            blurDataURL="/banner-seo-img-blur.png"
           />
         </section>
       </div>
