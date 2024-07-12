@@ -10,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        serif: ["Merriweather", "serif"],
+      },
       colors: {
         primary: {
           text: "#191919",

@@ -5,7 +5,7 @@ import "./PrimaryButton.css";
 const PrimaryButton = ({ title }) => {
   return (
     <>
-      <div className="">
+      <div className="font-serif">
         <button className="btn-31 rounded-full">
           <div className="text-container flex gap-2 items-center px-5 py-2">
             <p className="text text-white">{title}</p>

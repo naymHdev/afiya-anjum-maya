@@ -13,7 +13,7 @@ import "./footer.css";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="relative bg-gradient-to-b from-[#31077D] to-[#6340C0] text-white py-10 mt-56">
+    <footer className="font-serif relative bg-gradient-to-b from-[#31077D] to-[#6340C0] text-white py-10 mt-56">
       <div className="absolute inset-x-0 -top-[150px]">
         <Wave
           fill="#33097E"

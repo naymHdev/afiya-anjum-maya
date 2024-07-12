@@ -76,11 +76,14 @@ const WhatWeDo = () => {
           <section className=" flex-1">
             <div>
               <Image
-                className=" rounded-3xl"
-                src="/what-we-do.jpg"
-                height={600}
-                width={600}
+                className=" mx-auto"
+                src="/what-we-do.png"
+                height={900}
+                width={900}
                 alt="what we do"
+                priority
+                blurDataURL="data...."
+                placeholder="blur"
               />
             </div>
           </section>

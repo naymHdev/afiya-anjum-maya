@@ -8,13 +8,13 @@ import Marquee from "react-fast-marquee";
 const AboutUs = () => {
   return (
     <>
-      <div className="mt-24 grid grid-cols-1 md:grid-cols-2 items-center p-4 md:p-6 lg:p-10">
+      <div className="mt-24 grid grid-cols-1 md:grid-cols-2 items-center px-4 md:px-6 lg:px-10">
         <section>
           <Image
-            className=" rounded-full"
-            src="/about-us-image.jpg"
-            height={500}
-            width={500}
+            className=" mx-auto"
+            src="/about-us-image.png"
+            height={600}
+            width={600}
             alt="about us"
             priority
           />
@@ -23,20 +23,23 @@ const AboutUs = () => {
           <p className="text-[#FA8120] font-semibold text-sm">@ ABOUT US</p>
           <div>
             <h2 className=" text-primary-text text-3xl font-bold mt-2">
-              Everything Starts With A Marketing Agency.
+              What are my strongest sides and skills?
             </h2>
             <p className=" text-secondary-text mt-4 text-sm font-medium">
-              Seoland agency makes it easy to create content that engages your
-              audience by taking the guesswork out of research, strategy, and
-              writing.
+              I’m passionate about uncovering my strongest sides and skills,
+              constantly striving for growth and improvements. With a mindset
+              geared towards and learning, I navigate through challenges with
+              resilience and determination. My journey is guide by the belief
+              that every experience enriches my abilities and hones my
+              expertise.
             </p>
           </div>
-          <div className="mt-5 grid grid-cols-1 lg:grid-cols-2 gap-4 text-primary-text font-medium">
+          <div className="mt-5 grid grid-cols-1 lg:grid-cols-2 gap-4 text-start text-primary-text font-medium">
             <button className=" text-center px-6 rounded-full shadow-sm py-4 flex items-center gap-2">
               <span>
                 <FaCheckCircle className=" text-2xl text-[#FA8F29]" />
               </span>
-              Amazing communication.{" "}
+              Batter communication.{" "}
             </button>
             <button className=" text-center px-6 rounded-full shadow-sm py-4 flex items-center gap-2">
               <span>

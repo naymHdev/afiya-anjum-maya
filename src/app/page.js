@@ -8,10 +8,11 @@ import Pricing from "@/components/Pricing";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import NewsLatter from "@/components/NewsLatter";
 import ServicesTabs from "@/components/ServicesTabs";
+import Faq from "@/components/Faq";
 
 export default function Home() {
   return (
-    <main>
+    <main className="font-serif">
       <div>
         <Banner />
         <Services />
@@ -23,6 +24,7 @@ export default function Home() {
         <WhyChooseUs />
         <ServicesTabs />
         <NewsLatter />
+        <Faq />
       </div>
     </main>
   );

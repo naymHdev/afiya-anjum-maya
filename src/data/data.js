@@ -35,14 +35,14 @@ export const coreServices = [
     icon: "/content-icon.png",
     title: "Content Marketing",
     description:
-      "SEO Grow Your Business with Our SEO Agency on the search engine’s results page, This means that when your",
+      "Organic Growth Through Content Marketing Services. Content marketing is like your business developer, account manager, and customer service representative. We create value through words. If you like that, you’ll like us.",
   },
   {
     id: 3,
     icon: "/digital-icon.png",
-    title: "Digital Marketing",
+    title: "SMM",
     description:
-      "Digital Marketing Business with Our SEO Agency on the search engine’s results page, This means that when your",
+      "Unlock your brand’s potential with our comprehensive Social Media Management services, designed to captivate your audience, enhance your online presence, and drive business growth.",
   },
   {
     id: 4,

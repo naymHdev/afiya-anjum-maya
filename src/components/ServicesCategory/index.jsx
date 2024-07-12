@@ -40,7 +40,7 @@ const ServicesCategory = () => {
                       {itm.title}
                     </h2>
                     <p className=" text-secondary-text font-medium">
-                      {itm.description.slice(0, 110)}
+                      {itm.description.slice(0, 120)}...
                     </p>
                   </div>
                   <div className=" py-7">
