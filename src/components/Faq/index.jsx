@@ -31,9 +31,12 @@ const Faq = () => {
                 defaultOpen={index === 0}
               >
                 <DisclosureButton className="group flex w-full items-center justify-between">
-                  <span className="font-medium text-primary-text group-hover:text-black/80">
-                    {faq.question}
-                  </span>
+                  <div className=" flex items-center gap-4">
+                    <span>({index + 1})</span>
+                    <span className="font-medium text-primary-text group-hover:text-black/80">
+                      {faq.question}
+                    </span>
+                  </div>
                   <ChevronDownIcon className="size-5 fill-black group-data-[hover]:fill-black group-data-[open]:rotate-180" />
                 </DisclosureButton>
                 <DisclosurePanel className="mt-2 text-sm/5 text-secondary-text">
