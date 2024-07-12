@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import PrimaryButton from "../Button";
 
+
 const Banner = () => {
   return (
     <>
@@ -34,7 +35,7 @@ const Banner = () => {
               their audience effectively.
             </p>
           </div>
-          <div className=" flex items-center mt-8 md:mt-12">
+          <div className=" flex items-center mt-5 md:mt-8">
             <div>
               <PrimaryButton title="Get Started" />
             </div>

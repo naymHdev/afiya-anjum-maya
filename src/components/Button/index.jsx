@@ -1,21 +1,41 @@
-import React from "react";
-import { GoArrowRight } from "react-icons/go";
-import "./PrimaryButton.css";
+"use client";
+import React, { useState } from "react";
+import ReactiveButton from "reactive-button";
 
 const PrimaryButton = ({ title }) => {
+  const [state, setState] = useState("idle");
+
+  const onClickHandler = () => {
+    setState("loading");
+
+    // Simulating an HTTP request
+    setTimeout(() => {
+      setState("success");
+    }, 2000);
+  };
+
   return (
-    <>
-      <div className="font-serif">
-        <button className="btn-31 rounded-full">
-          <div className="text-container flex gap-2 items-center px-5 py-2">
-            <p className="text text-white">{title}</p>
-            <div className="w-10 h-10 mx-auto rounded-full bg-white hover:z-10">
-              <GoArrowRight className=" w-10 h-10 text-black p-2" />
-            </div>
-          </div>
-        </button>
-      </div>
-    </>
+    <div className="font-serif">
+      <ReactiveButton
+        shadow={true}
+        rounded={true}
+        buttonState={state}
+        animation={true}
+        outline={false}
+        idleText={title}
+        loadingText="Loading"
+        successText="Done"
+        onClick={onClickHandler}
+        style={{
+          paddingLeft: "25px",
+          paddingRight: "25px",
+          paddingTop: "15px",
+          paddingBottom: "15px",
+          background: "linear-gradient(to right, #FA660A, #FB982E)",
+          border: "none",
+        }}
+      />
+    </div>
   );
 };
 
