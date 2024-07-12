@@ -33,7 +33,7 @@ const Faq = () => {
                 <DisclosureButton className="group flex w-full items-center justify-between">
                   <div className=" flex items-center gap-4">
                     <span>({index + 1})</span>
-                    <span className="font-medium text-primary-text group-hover:text-black/80">
+                    <span className="font-medium text-start text-sm md:text-xl text-primary-text group-hover:text-black/80">
                       {faq.question}
                     </span>
                   </div>
