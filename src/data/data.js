@@ -178,3 +178,45 @@ export const allServicesData = [
     ],
   },
 ];
+
+export const faqData = [
+  {
+    question: "What digital marketing services do you offer?",
+    answer:
+      "I specialize in a wide range of digital marketing services, including SEO (Search Engine Optimization), PPC (Pay-Per-Click) advertising, social media marketing, content marketing, email marketing, and more. Each strategy is tailored to meet specific business goals and objectives.",
+  },
+  {
+    question: "Can you describe your approach to digital marketing strategy?",
+    answer:
+      "My approach begins with a thorough analysis of the client's business and industry landscape. I then develop a customized strategy that includes goal setting, audience targeting, competitor analysis, and ongoing performance tracking and optimization.",
+  },
+  {
+    question: "What sets your digital marketing services apart from others?",
+    answer:
+      "My services are distinguished by a combination of creativity, data-driven decision-making, and a commitment to achieving measurable results. I prioritize continuous learning to stay updated with the latest trends and best practices in digital marketing.",
+  },
+  {
+    question:
+      "Can you provide examples of successful campaigns you've worked on?",
+    answer:
+      "Yes, I have successfully executed campaigns that have significantly increased brand awareness, improved search engine rankings, generated qualified leads, and enhanced overall digital presence. Case studies and client testimonials are available upon request.",
+  },
+  {
+    question: "How do you measure the success of your campaigns?",
+    answer:
+      "Success metrics vary based on campaign goals but commonly include metrics such as website traffic, conversions, engagement rates, ROI (Return on Investment), and customer acquisition costs (CAC). I use advanced analytics tools to provide transparent reporting and insights.",
+  },
+  {
+    question: "Do you work independently or with a team?",
+    answer:
+      "I have experience working both independently and collaboratively with cross-functional teams including designers, developers, content creators, and strategists. This flexibility allows me to adapt to the specific needs of each project.",
+  },
+  {
+    question: "What is your refund policy?",
+    answer: "If you're unhappy with your purchase, we'll refund you in full.",
+  },
+  {
+    question: "Do you offer technical support?",
+    answer: "No.",
+  },
+];
