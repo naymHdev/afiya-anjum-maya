@@ -26,9 +26,9 @@ const WhyChooseUs = () => {
               In Our Company
             </h2>
             <p className=" font-medium text-secondary-text my-5">
-              We help businesses bring ideas to life in the digital world
+              I help businesses bring ideas to life in the digital world by
               designing & implementing the technology tools that they need to
-              win. We help businesses bring ideas to life in the digital world.
+              win. I help businesses bring ideas to life in the digital world.
             </p>
             <div className=" mt-10">
               <div className=" flex justify-between gap-10">
@@ -40,8 +40,8 @@ const WhyChooseUs = () => {
                     Latest Technology
                   </h3>
                   <p className=" text-secondary-text font-medium my-4">
-                    We help businesses bring ideas to life in the digital world
-                    designing & implementing
+                    I help businesses bring ideas to life in the digital world
+                    designing & implementing them.
                   </p>
                 </div>
               </div>
@@ -54,14 +54,14 @@ const WhyChooseUs = () => {
                     Latest Marketing tools
                   </h3>
                   <p className=" text-secondary-text font-medium my-4">
-                    We help businesses bring ideas to life in the digital world
+                    I help businesses bring ideas to life in the digital world
                     designing & implementing
                   </p>
                 </div>
               </div>
             </div>
             <div className=" mt-8">
-              <PrimaryButton title="Get Service" />
+              <PrimaryButton title="GET STARTED" />
             </div>
           </div>
         </section>

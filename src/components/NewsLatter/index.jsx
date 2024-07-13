@@ -17,8 +17,8 @@ const NewsLatter = () => {
                 Pay Per Click
               </h2>
               <p className=" mt-4 text-sm text-secondary-text font-medium">
-                We help businesses bring ideas to life in the digital world
-                design ing & implementing...
+                I help businesses bring ideas to life in the digital world by
+                designing & implementing them...
               </p>
               <div className=" mt-10">
                 <button className="flex items-center gap-1 text-sm font-medium">

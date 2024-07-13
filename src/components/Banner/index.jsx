@@ -37,7 +37,7 @@ const Banner = () => {
           </div>
           <div className=" flex items-center mt-5 md:mt-8">
             <div>
-              <PrimaryButton title="Get Started" />
+              <PrimaryButton title="Contact me" />
             </div>
           </div>
         </section>

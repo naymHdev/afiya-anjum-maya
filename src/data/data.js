@@ -4,21 +4,20 @@ export const services = [
     image: "/online-marketing.png",
     title: "Online Marketing",
     description:
-      "Get high rankings with multi-team collaboration that will help you optimize off-page SEO.",
+      "Digital marketing, involves promoting products, services, or other digital channels.",
   },
   {
     id: 2,
     image: "/data-analysis.png",
     title: "Data Analysis",
     description:
-      "Get high rankings with multi-team collaboration that will help you optimize off-page SEO.",
+      "Data analysis is the process of examining, cleaning, transforming, and modeling data with your goal.",
   },
   {
     id: 3,
     image: "/seo.png",
     title: "SEO Optimization",
-    description:
-      "Get high rankings with multi-team collaboration that will help you optimize off-page SEO.",
+    description: "Get high rankings that will help you optimize off-page SEO.",
   },
 ];
 
@@ -28,14 +27,14 @@ export const coreServices = [
     icon: "/seo-icon.png",
     title: "SEO Marketing",
     description:
-      "SEO Grow Your Business with Our SEO Agency on the search engine’s results page, This means that when your",
+      "My advanced SEO strategy can help you recover your organic traffic, clear competitors’ attack posts from the first page, grow your organic traffic rapidly, rank for super competitive money keywords, and overall, it can ensure a steady flow of high converting organic traffic.",
   },
   {
     id: 2,
     icon: "/content-icon.png",
     title: "Content Marketing",
     description:
-      "Organic Growth Through Content Marketing Services. Content marketing is like your business developer, account manager, and customer service representative. We create value through words. If you like that, you’ll like us.",
+      "Organic growth through content marketing services. Content marketing is like your business developer, account manager, and customer service representative. I will create value through words. If you like that, you’ll like me",
   },
   {
     id: 3,
@@ -49,7 +48,7 @@ export const coreServices = [
     icon: "/email-marketing-icon.png",
     title: "Email Marketing",
     description:
-      " target customers search for products and services that your industry offers to find your website. Our approach to SEO is uniquely built around what we know works…and what we know doesn’t work. With over 200 verified factors ...",
+      "Email marketing is a highly effective way to connect with the audience, deliver personalised content, and drive engagement. It's also cost-efficient and provides a great return on investment by nurturing leads and promoting products or services directly to customers.",
   },
 ];
 
@@ -59,28 +58,28 @@ export const workingProcess = [
     color: "linear-gradient(to right, #fa690e, #fb972d)",
     title: "Strategy",
     description:
-      "Based on the insights gathered, we develop a comprehensive SEO strategy tailored to your business's unique needs and objectives.",
+      "Based on the insights gathered, I develop a comprehensive SEO strategy tailored to your business's unique needs and objectives.      ",
   },
   {
     icon: "/implementation-icon.png",
     color: "linear-gradient(to right, #2766ED, #59D0FD)",
     title: "Implementation",
     description:
-      "Digicove’s team of experts executes the plan, leveraging the latest technology and tools to deliver measurable results.",
+      "I execute the plan, leveraging the latest technology and tools to deliver measurable results.      ",
   },
   {
     icon: "/data-analysis-icon.png",
     color: "linear-gradient(to right, #9A57D6, #B95FF9)",
     title: "Analysis",
     description:
-      "We conduct in-depth analysis & track every key performance indicators to evaluate the effectiveness of digicove’s strategies.",
+      "I conduct in-depth analysis & track every key performance indicator to evaluate the effectiveness of strategies.",
   },
   {
     icon: "/report-icon.png",
     color: "linear-gradient(to right, #3AD0FB, #3AE8F6)",
     title: "Reporting",
     description:
-      "We provide regular, transparent reports that detail the results achieved and the impact of our efforts on your business's bottom line.",
+      "I provide regular, transparent reports that detail the results achieved and the impact of our efforts on your business's bottom line.",
   },
 ];
 
@@ -117,6 +116,24 @@ export const allServicesData = [
         category: "Marketing",
         image: "/email-marketing-tab.jpg",
       },
+      {
+        title: "SOCIAL MEDIA OPTIMIZATION (Organic Marketing)",
+        description:
+          "Organic marketing generates high quality traffic and leads for a much longer period of time than any type of paid marketing. Organic marketing creates credibility, trust among your audience. 60% of consumers prefer to purchase from brands that they trust.        ",
+        image: "/email-marketing-tab.jpg",
+      },
+      {
+        title: "YOUTUBE MARKETING        ",
+        description:
+          "Expand your reach and grow your YouTube channel with my expert marketing and optimization strategies",
+        image: "/email-marketing-tab.jpg",
+      },
+      {
+        title: "YOUTUBE VIDEO SEO",
+        description:
+          "Optimize your video content to rank higher in search results, driving more views and engagement.        ",
+        image: "/email-marketing-tab.jpg",
+      },
     ],
   },
   {
@@ -146,33 +163,6 @@ export const allServicesData = [
         description:
           "Understand the fundamental principles of user interface and user experience design.",
         category: "Design",
-        image: "/development-tabs.jpg",
-      },
-      {
-        title: "Responsive Web Design",
-        description:
-          "Create web designs that work seamlessly on various devices and screen sizes.",
-        category: "Design",
-        image: "/development-tabs.jpg",
-      },
-    ],
-  },
-  {
-    category: "Development",
-    content: [
-      {
-        title: "Full-Stack Web Development",
-        description:
-          "Gain knowledge in developing both front-end and back-end of web applications.",
-        category: "Development",
-        image: "/development-tabs.jpg",
-      },
-
-      {
-        title: "Advanced JavaScript Techniques",
-        description:
-          "Master advanced JavaScript concepts for dynamic and interactive web applications.",
-        category: "Development",
         image: "/development-tabs.jpg",
       },
     ],

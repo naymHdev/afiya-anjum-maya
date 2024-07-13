@@ -72,6 +72,7 @@ const AboutUs = () => {
           <div className=" text-primary-text text-4xl md:text-6xl font-extrabold flex items-center gap-8">
             <span>.Marketing</span> <span>.Digital</span>
             <span>.SEO</span> <span>.Data Analysis</span>
+            <span>.YouTube Video Promotion</span>
           </div>
         </Marquee>
       </section>

@@ -34,7 +34,7 @@ const PricingCard = () => {
           </div>
           <div className=" mt-8">
             <p className=" text-primary-text font-bold">
-              $ <span className=" text-3xl font-extrabold">24</span>{" "}
+              $ <span className=" text-3xl font-extrabold">20</span>{" "}
               <span className=" text-secondary-text font-medium">/Month</span>
             </p>
           </div>
@@ -74,7 +74,7 @@ const PricingCard = () => {
           </div>
           <div className=" mt-8">
             <p className=" text-white font-bold">
-              $ <span className=" text-3xl font-extrabold">48</span>{" "}
+              $ <span className=" text-3xl font-extrabold">40</span>{" "}
               <span className="font-medium">/Month</span>
             </p>
           </div>
@@ -115,7 +115,7 @@ const PricingCard = () => {
           </div>
           <div className=" mt-8">
             <p className=" text-primary-text font-bold">
-              $ <span className=" text-2xl font-extrabold">72</span>{" "}
+              $ <span className=" text-2xl font-extrabold">70</span>{" "}
               <span className=" text-secondary-text font-medium">/Month</span>
             </p>
           </div>

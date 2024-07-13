@@ -13,9 +13,12 @@ const ServicesCategory = () => {
             <p className="text-[#FA7012] font-medium text-sm py-2">
               @ SERVICES
             </p>
-            <h1 className=" text-primary-text text-3xl lg:text-6xl font-semibold lg:leading-[70px] mb-10">
-              Features Loved Our Digital Marketing Services!
+            <h1 className=" text-primary-text text-3xl lg:text-6xl font-semibold lg:leading-[70px]">
+              WHAT CAN I DO FOR YOU?
             </h1>
+            <p className=" text-xl font-semibold mb-16">
+              (we can always alter our services according to your needs.)
+            </p>
             <div className=" absolute right-0">
               <Image
                 src="/services-section-image.png"
