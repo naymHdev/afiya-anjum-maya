@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { workingProcess } from "@/data/data";
+import "./workProcess.css";
 
 const WorkProcess = () => {
   return (

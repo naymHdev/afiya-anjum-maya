@@ -3,6 +3,7 @@ import { coreServices } from "@/data/data";
 import Image from "next/image";
 import React from "react";
 import { RxArrowTopRight } from "react-icons/rx";
+import "./servicesCategory.css";
 
 const ServicesCategory = () => {
   return (
@@ -33,22 +34,22 @@ const ServicesCategory = () => {
               {coreServices?.map((itm) => (
                 <div
                   key={itm.id}
-                  className="shadow-xl relative rounded-2xl p-5 mt-20 hover:text-white"
+                  className="shadow-xl relative rounded-2xl p-5 mt-20 hover:text-white group  hover:cursor-pointer hover:bg-black hover:scale-100"
                 >
-                  <div className=" border-none shadow-sm rounded-full p-8 bg-gradient-to-r from-[#FBEDE7] to-[#FEF3EA] absolute -top-14">
+                  <div className="border-none shadow-sm rounded-full p-8 bg-gradient-to-r from-[#FBEDE7] to-[#FEF3EA] absolute -top-14 group-hover:bg-gradient-to-r group-hover:from-[#FA6B10] group-hover:to-[#FB952C]">
                     <Image src={itm.icon} width={50} height={50} alt="Icon" />
                   </div>
-                  <div className=" space-y-6 mt-16">
-                    <h2 className=" text-primary-text text-xl font-bold">
+                  <div className="space-y-6 mt-16">
+                    <h2 className="text-primary-text text-xl font-bold group-hover:text-white">
                       {itm.title}
                     </h2>
-                    <p className=" text-secondary-text font-medium">
+                    <p className="text-secondary-text font-medium group-hover:text-gray-200">
                       {itm.description.slice(0, 120)}...
                     </p>
                   </div>
-                  <div className=" py-7">
-                    <button className=" bg-gradient-to-r from-[#2661ED] hover:from-[#FA6B10] hover:to-[#FB952C] to-[#53C3FB] rounded-full p-3">
-                      <RxArrowTopRight className=" text-white text-3xl" />
+                  <div className="py-7">
+                    <button className="bg-gradient-to-r from-[#2661ED] hover:from-[#FA6B10] hover:to-[#FB952C] to-[#53C3FB] rounded-full p-3">
+                      <RxArrowTopRight className="text-white text-3xl" />
                     </button>
                   </div>
                 </div>
