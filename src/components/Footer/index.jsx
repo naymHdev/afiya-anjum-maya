@@ -195,7 +195,7 @@ const Footer = () => {
           </span>
         </p>
       </div>
-      <div className=" absolute font-mono bottom-4 right-4 text-sm font-medium">
+      <div className=" absolute font-mono bottom-4 left-4 text-sm font-medium">
         <p>{currentTime}</p>
       </div>
     </footer>
