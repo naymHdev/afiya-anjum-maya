@@ -19,7 +19,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className=" w-full mx-auto">
+    <html lang="en" className="w-full mx-auto">
       <body className={inter.className}>
         <Header />
         {children}

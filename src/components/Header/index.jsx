@@ -41,7 +41,7 @@ export default function Header() {
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
           <a
             href="/"
-            className="text-sm menu-item font-semibold leading-6 text-gray-900"
+            className="text-sm menu-item hover:cursor-pointer font-semibold leading-6 text-gray-900"
           >
             Home
           </a>
