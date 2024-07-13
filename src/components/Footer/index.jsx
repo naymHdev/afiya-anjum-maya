@@ -4,9 +4,11 @@ import { TfiArrowTopRight } from "react-icons/tfi";
 import Wave from "react-wavify";
 import "./footer.css";
 import Image from "next/image";
+import moment from "moment";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const currentTime = moment().format("h:mm a");
   return (
     <footer className="font-serif relative bg-gradient-to-b from-[#31077D] to-[#6340C0] text-white py-10 mt-56">
       <div className="absolute inset-x-0 -top-[150px]">
@@ -35,7 +37,7 @@ const Footer = () => {
                 width={200}
                 alt="logo image"
               />
-              <h2 className=" text-4xl font-bold text-white mt-16">
+              <h2 className="text-2xl md:text-4xl font-bold text-white mt-16">
                 Digital Marketing Specialist
               </h2>
               <p className=" text-sm font-medium text-gray-200 mt-4">
@@ -95,7 +97,7 @@ const Footer = () => {
           <div className=" grid">
             <div>
               <div>
-                <h1 className=" mt-3 mb-4 text-4xl font-medium text-white">
+                <h1 className=" mt-3 mb-4 text-2xl md:text-4xl font-medium text-white">
                   LET’S WORK TOGETHER!
                 </h1>
                 <p className="mb-4 text-sm font-medium text-gray-200">
@@ -148,7 +150,7 @@ const Footer = () => {
 
           {/* Third section  || in subscription section */}
           <div>
-            <h2 className="text-4xl font-medium mb-4">
+            <h2 className="text-2xl md:text-4xl font-medium mb-4">
               Subscribe to Our Newsletter
             </h2>
             <p className="mb-4 text-sm font-medium text-gray-200">
@@ -192,6 +194,9 @@ const Footer = () => {
             </a>
           </span>
         </p>
+      </div>
+      <div className=" absolute font-mono bottom-4 right-4 text-sm font-medium">
+        <p>{currentTime}</p>
       </div>
     </footer>
   );

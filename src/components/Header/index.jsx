@@ -4,6 +4,7 @@ import { Dialog, DialogPanel, PopoverGroup } from "@headlessui/react";
 import { HiMiniBars3BottomRight, HiMiniBars3BottomLeft } from "react-icons/hi2";
 import { BsArrowRightCircle } from "react-icons/bs";
 import "./header.css";
+import Image from "next/image";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -12,12 +13,19 @@ export default function Header() {
     <header className="font-serif bg-white shadow-sm fixed w-full mx-auto">
       <nav
         aria-label="Global"
-        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        className="mx-auto relative flex max-w-7xl items-center justify-between p-6 lg:px-8"
       >
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
-            <h2>Maya</h2>
+            <Image
+              className=" mx-auto absolute -top-[26px] left-0 bg-transparent"
+              src="/maya-logo.png"
+              height={130}
+              width={130}
+              alt="logo image"
+              priority
+            />
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -38,7 +46,7 @@ export default function Header() {
             Home
           </a>
           <a
-            href="#"
+            href="#services"
             className="text-sm menu-item font-semibold leading-6 text-gray-900"
           >
             Services
@@ -84,7 +92,7 @@ export default function Header() {
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-             <h2>Maya</h2>
+              <h2>Maya</h2>
             </a>
             <button
               type="button"
