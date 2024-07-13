@@ -190,7 +190,7 @@ const Footer = () => {
           © {currentYear} Company. All rights reserved by
           <span>
             <a target="_blank" className=" px-1 text-[#FB923C]" href="/">
-              @ Maya Rahaman.
+              @Maya Rahaman.
             </a>
           </span>
         </p>

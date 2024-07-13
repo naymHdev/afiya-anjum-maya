@@ -92,14 +92,14 @@ export const allServicesData = [
         description:
           "Learn the best practices for optimizing your website for search engines.",
         category: "Marketing",
-        image: "/seo-services.jpg",
+        image: "/services/seo-services.png",
       },
       {
         title: "Content Marketing Strategies",
         description:
           "Discover effective strategies for creating and distributing valuable content.",
         category: "Marketing",
-        image: "/development-tabs.jpg",
+        image: "/services/content-m-services.png",
       },
 
       {
@@ -107,32 +107,32 @@ export const allServicesData = [
         description:
           "Learn how to plan and execute successful social media campaigns.",
         category: "Marketing",
-        image: "/media-tabs.jpg",
+        image: "/services/efective-social-services.png",
       },
       {
         title: "Email Marketing Campaigns",
         description:
           "Develop and implement effective email marketing strategies to reach your target audience.",
         category: "Marketing",
-        image: "/email-marketing-tab.jpg",
+        image: "/services/email-m-services.png",
       },
       {
         title: "SOCIAL MEDIA OPTIMIZATION (Organic Marketing)",
         description:
           "Organic marketing generates high quality traffic and leads for a much longer period of time than any type of paid marketing. Organic marketing creates credibility, trust among your audience. 60% of consumers prefer to purchase from brands that they trust.        ",
-        image: "/email-marketing-tab.jpg",
+        image: "/services/branding-services.png",
       },
       {
         title: "YOUTUBE MARKETING        ",
         description:
           "Expand your reach and grow your YouTube channel with my expert marketing and optimization strategies",
-        image: "/email-marketing-tab.jpg",
+        image: "/services/fb-ads-services.png",
       },
       {
         title: "YOUTUBE VIDEO SEO",
         description:
           "Optimize your video content to rank higher in search results, driving more views and engagement.        ",
-        image: "/email-marketing-tab.jpg",
+        image: "/services/yt-seo-services.png",
       },
     ],
   },
@@ -144,14 +144,14 @@ export const allServicesData = [
         description:
           "Explore techniques for creating and maintaining a powerful brand identity.",
         category: "Branding",
-        image: "/data-analysis-tabs.jpg",
+        image: "/public",
       },
       {
         title: "Branding Through Storytelling",
         description:
           "Utilize storytelling to enhance your brand's image and connect with your audience.",
         category: "Branding",
-        image: "/email-marketing-tab.jpg",
+        image: "/public",
       },
     ],
   },
@@ -163,7 +163,7 @@ export const allServicesData = [
         description:
           "Understand the fundamental principles of user interface and user experience design.",
         category: "Design",
-        image: "/development-tabs.jpg",
+        image: "/public",
       },
     ],
   },
