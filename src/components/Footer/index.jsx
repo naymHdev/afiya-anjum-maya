@@ -98,10 +98,10 @@ const Footer = () => {
             <div>
               <div>
                 <h1 className=" mt-3 mb-4 text-2xl md:text-4xl font-medium text-white">
-                  LET’S WORK TOGETHER!
+                  LETS WORK TOGETHER!
                 </h1>
                 <p className="mb-4 text-sm font-medium text-gray-200">
-                  CONTACT ME AND LET'S SCHEDULE A CHAT.{" "}
+                  CONTACT ME AND LETS SCHEDULE A CHAT.{" "}
                 </p>
               </div>
               <div className="mb-6 lg:mb-0 space-y-4">
@@ -190,7 +190,7 @@ const Footer = () => {
           © {currentYear} Company. All rights reserved by
           <span>
             <a target="_blank" className=" px-1 text-[#FB923C]" href="/">
-              @Maya Rahaman.
+              @ Maya Rahaman.
             </a>
           </span>
         </p>
