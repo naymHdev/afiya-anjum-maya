@@ -1,15 +1,23 @@
 "use client";
 import { Bars3Icon } from "@heroicons/react/20/solid";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const Header = () => {
   return (
     <>
       <header className=" relative">
-        <nav className=" px-4 md:px-6 lg:px-10 py-6">
+        <nav className=" px-4 md:px-6 lg:px-10 py-6 fixed z-10 w-full mx-auto max-w-7xl">
           <div className=" flex items-center justify-between">
             <div>
-              <h2 className=" text-2xl font-bold">Maya Rahaman</h2>
+              <Image
+                className=" absolute -top-6"
+                src="/maya-logo.png"
+                height={140}
+                width={140}
+                alt="logo"
+                priority
+              />
             </div>
             <motion.div
               whileHover={{
