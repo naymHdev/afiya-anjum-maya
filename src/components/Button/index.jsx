@@ -1,40 +1,20 @@
 "use client";
-import React, { useState } from "react";
-import ReactiveButton from "reactive-button";
+import { motion } from "framer-motion";
 
 const PrimaryButton = ({ title }) => {
-  const [state, setState] = useState("idle");
-
-  const onClickHandler = () => {
-    setState("loading");
-
-    // Simulating an HTTP request
-    setTimeout(() => {
-      setState("success");
-    }, 2000);
-  };
-
   return (
     <div className="font-serif">
-      <ReactiveButton
-        shadow={true}
-        rounded={true}
-        buttonState={state}
-        animation={true}
-        outline={false}
-        idleText={title}
-        loadingText="Loading"
-        successText="Done"
-        onClick={onClickHandler}
-        style={{
-          paddingLeft: "25px",
-          paddingRight: "25px",
-          paddingTop: "15px",
-          paddingBottom: "15px",
-          background: "linear-gradient(to right, #FA660A, #FB982E)",
-          border: "none",
+      <motion.button
+        whileHover={{
+          scale: 1.2,
+          transition: { duration: 1 },
         }}
-      />
+        whileTap={{ scale: 0.9 }}
+        whileInView={{ opacity: 1 }}
+        className=" bg-custom-gradient text-white rounded-full px-5 py-2 font-medium"
+      >
+        {title}
+      </motion.button>
     </div>
   );
 };
