@@ -16,7 +16,7 @@ const DisclosurePanel = dynamic(() =>
 
 const Faq = () => {
   return (
-    <div className="px-4 md:px-6 lg:px-8 mt-28 md:mt-44">
+    <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8 mt-28 md:mt-44">
       <div>
         <h2 className="text-sm font-bold text-orange-400">
           @WHAT MY CLIENTS SAYS

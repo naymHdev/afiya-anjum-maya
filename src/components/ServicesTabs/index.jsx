@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function ServicesTabs() {
   return (
-    <div className="mt-16 md:mt-28 px-4 md:px-6 lg:px-10">
+    <div className="mt-16 md:mt-28 max-w-7xl mx-auto px-4 md:px-6 lg:px-10">
       <div className="">
         <TabGroup>
           <TabList className="flex flex-wrap items-center justify-center gap-3 border-none py-4 md:rounded-full bg-[#FDFDFD] md:shadow-sm w-full md:w-1/2 mx-auto">

@@ -5,7 +5,7 @@ import { RxArrowTopRight } from "react-icons/rx";
 const NewsLatter = () => {
   return (
     <>
-      <div className=" px-5 md:px-6 lg:px-10 mt-16 md:mt-24">
+      <div className="max-w-7xl mx-auto px-5 md:px-6 lg:px-10 mt-16 md:mt-24">
         <div className=" grid grid-cols-1 md:grid-cols-7 gap-5">
           <div className=" relative col-span-full md:col-span-2">
             <div className=" h-32 w-32 bg-custom-gradient absolute top-0 right-0 shadow-2xl shadow-orange-100 rounded-t-2xl rounded-bl-full"></div>

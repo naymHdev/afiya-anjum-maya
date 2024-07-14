@@ -6,7 +6,7 @@ import Image from "next/image";
 const WhyChooseUs = () => {
   return (
     <>
-      <div className=" px-4 md:px-6 lg:px-10 mt-28">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-10 mt-28">
         <section className=" grid md:flex items-center justify-between">
           <div className=" flex-1">
             <Image

@@ -7,7 +7,7 @@ import PrimaryButton from "../Button";
 const Banner = () => {
   return (
     <>
-      <div className="lg:flex items-center justify-between px-4 md:px-6 lg:px-10 relative py-20">
+      <div className="lg:flex items-center justify-between max-w-7xl mx-auto px-4 md:px-6 lg:px-10 relative py-20">
         <section className=" md:order-last flex-1 mt-10">
           <Image
             className=" mx-auto"

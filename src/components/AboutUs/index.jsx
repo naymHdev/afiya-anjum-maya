@@ -8,7 +8,7 @@ import Marquee from "react-fast-marquee";
 const AboutUs = () => {
   return (
     <>
-      <div className="mt-24 grid grid-cols-1 md:grid-cols-2 items-center px-4 md:px-6 lg:px-10">
+      <div className="mt-24 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center px-4 md:px-6 lg:px-10">
         <section>
           <Image
             className=" mx-auto"

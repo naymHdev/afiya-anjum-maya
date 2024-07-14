@@ -8,7 +8,7 @@ import "./servicesCategory.css";
 const ServicesCategory = () => {
   return (
     <>
-      <div className=" p-4 md:p-6 lg:p-10 mt-24">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-10 mt-24">
         <div className="gap-8 grid grid-cols-1 md:grid-cols-2">
           <section className=" relative">
             <p className="text-[#FA7012] font-medium text-sm py-2">

@@ -7,7 +7,7 @@ import { Progress } from "antd";
 const WhatWeDo = () => {
   return (
     <>
-      <div className=" p-4 md:p-6 lg:p-10 mt-28">
+      <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-10 mt-28">
         <div className="grid md:flex items-center justify-between gap-10">
           <section className=" flex-1">
             <p className="py-3 text-sm font-semibold text-[#F68124]">
