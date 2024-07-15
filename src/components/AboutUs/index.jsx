@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
 import PrimaryButton from "../Button";

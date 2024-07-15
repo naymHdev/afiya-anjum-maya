@@ -32,7 +32,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className=" font-serif p-4 fixed top-0 left-0 right-0 z-50 shadow-sm bg-slate-50">
+    <nav className=" font-serif py-6 fixed top-0 left-0 right-0 z-50 shadow-sm bg-slate-50">
       <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-10 relative flex justify-between items-center">
         <div className="">
           <Image
