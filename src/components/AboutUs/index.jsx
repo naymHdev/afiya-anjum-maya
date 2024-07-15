@@ -4,20 +4,14 @@ import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
 import PrimaryButton from "../Button";
 import Marquee from "react-fast-marquee";
+import "./about.css";
 
 const AboutUs = () => {
   return (
     <>
-      <div className="mt-24 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center px-4 md:px-6 lg:px-10">
+      <div className="mt-24 relative max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center px-4 md:px-6 lg:px-10">
         <section>
-          <Image
-            className=" mx-auto"
-            src="/about-us-image.png"
-            height={600}
-            width={600}
-            alt="about us"
-            priority
-          />
+          <div className="about-blob mx-auto" />
         </section>
         <section>
           <p className="text-[#FA8120] font-semibold text-sm">@ ABOUT US</p>
