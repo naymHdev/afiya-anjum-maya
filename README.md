@@ -1,37 +1,84 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Maya Rahaman - Digital Marketing Services
 
-## Getting Started
+Welcome to the Maya Rahaman digital marketing services project! This project showcases a portfolio website for digital marketing services.
 
-First, run the development server:
+## Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Check out the live demo of the project [here](https://afiya-anjum-maya.vercel.app/).
+
+## Features
+
+- **Responsive Design**: The website is fully responsive and works on all device sizes.
+- **Modern UI/UX**: Clean and modern user interface and user experience.
+- **Animations**: Smooth animations using Framer Motion and GSAP.
+- **Tailwind CSS**: Styled with Tailwind CSS for a clean and scalable design.
+- **Next.js**: Built with Next.js for fast performance and SEO optimization.
+
+## Technologies Used
+
+- **Next.js**: React framework for server-side rendering and static site generation.
+- **React**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **Framer Motion**: Motion library for React to add animations.
+- **GSAP**: GreenSock Animation Platform for creating animations.
+- **Mongoose**: MongoDB object modeling tool for Node.js.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/naymHdev/afiya-anjum-maya.git
+   ```
+2. Navigate to the project directory:
+
+   ```bash
+   cd afiya-anjum-maya
+
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   yarn install
+
+
+   ```
+
+4. Run the development server:
+
+   ```bash
+   yarn dev
+
+   ```
+
+#### Open http://localhost:3000 with your browser to see the result.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## Adding a License
+
+Create a `LICENSE` file in the root directory of your project with the following content for the MIT License:
+
+```plaintext
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# afiya-anjum-maya
