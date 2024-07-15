@@ -3,7 +3,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { ArrowRightIcon } from "@heroicons/react/20/solid";
+import { ArrowRightIcon, ArrowUpRightIcon } from "@heroicons/react/20/solid";
 import "./nav.css";
 import Image from "next/image";
 
@@ -83,43 +83,67 @@ const Navbar = () => {
       </div>
       {isOpen && (
         <motion.div
-          className="md:hidden fixed top-16 left-0 w-full h-full bg-slate-50 text-primary-text flex flex-col items-center space-y-4 py-6"
+          className="md:hidden fixed top-16 left-0 w-full h-full bg-slate-50 text-primary-text flex flex-col space-y-6"
           initial="hidden"
           animate="visible"
           variants={menuVariants}
         >
-          <Link href="/" legacyBehavior>
-            <a
-              onClick={toggleMenu}
-              className="py-2 menu-item text-center w-full"
-            >
-              Home
-            </a>
-          </Link>
-          <Link href="/about" legacyBehavior>
-            <a
-              onClick={toggleMenu}
-              className="py-2 menu-item text-center w-full"
-            >
-              About
-            </a>
-          </Link>
-          <Link href="/services" legacyBehavior>
-            <a
-              onClick={toggleMenu}
-              className="py-2 menu-item text-center w-full"
-            >
-              Services
-            </a>
-          </Link>
-          <Link href="/contact" legacyBehavior>
-            <a
-              onClick={toggleMenu}
-              className="py-2 menu-item text-center w-full"
-            >
-              Contact
-            </a>
-          </Link>
+          <div>
+            <Link href="/" legacyBehavior>
+              <div
+                onClick={toggleMenu}
+                className=" flex items-center justify-around hover:cursor-pointer mt-10"
+              >
+                <p>Home</p>
+                <p>
+                  <ArrowUpRightIcon className=" text-black size-6" />
+                </p>
+              </div>
+            </Link>
+          </div>
+          <hr />
+          <div>
+            <Link href="/about" legacyBehavior>
+              <div
+                onClick={toggleMenu}
+                className=" flex items-center justify-around hover:cursor-pointer"
+              >
+                <p>About</p>
+                <p>
+                  <ArrowUpRightIcon className=" text-black size-6" />
+                </p>
+              </div>
+            </Link>
+          </div>
+          <hr />
+          <div>
+            <Link href="/services" legacyBehavior>
+              <div
+                onClick={toggleMenu}
+                className=" flex items-center justify-around hover:cursor-pointer"
+              >
+                <p>Services</p>
+                <p>
+                  <ArrowUpRightIcon className=" text-black size-6" />
+                </p>
+              </div>
+            </Link>
+          </div>
+          <hr />
+          <div>
+            <Link href="/contact" legacyBehavior>
+              <div
+                onClick={toggleMenu}
+                className=" flex items-center justify-around hover:cursor-pointer"
+              >
+                <p>Contact</p>
+                <p>
+                  <ArrowUpRightIcon className=" text-black size-6" />
+                </p>
+              </div>
+            </Link>
+          </div>
+          <hr />
         </motion.div>
       )}
     </nav>

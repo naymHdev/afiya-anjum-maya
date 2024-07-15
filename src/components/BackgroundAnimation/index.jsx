@@ -11,7 +11,7 @@ const BackgroundAnimation = () => {
   ];
 
   return (
-    <div className="bubbles">
+    <div className="">
       {bubbles.map((i, index) => (
         <span key={index} style={{ "--i": i }}></span>
       ))}
