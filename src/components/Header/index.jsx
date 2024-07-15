@@ -71,7 +71,7 @@ const Navbar = () => {
           <Link href="/contact" legacyBehavior>
             <a className="text-black menu-item">Contact</a>
           </Link>
-          <div className=" flex items-center gap-3">
+          <div className=" flex items-center gap-3 hover:cursor-pointer">
             <button className=" text-primary-text border-b hover:transition border-orange-500 rounded-none font-extrabold hover:text-slate-800 hover:border-none">
               Lets Talk
             </button>

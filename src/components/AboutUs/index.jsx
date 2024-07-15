@@ -3,13 +3,12 @@ import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
 import PrimaryButton from "../Button";
 import Marquee from "react-fast-marquee";
-import "./about.css";
 
 const AboutUs = () => {
   return (
     <>
       <div className="mt-24 relative max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center px-4 md:px-6 lg:px-10">
-        <section className="blobs mx-auto">
+        <section className="blobs mx-auto w-full h-auto md:w-[500px] md:h-[500px] flex justify-center items-center bg-transparent">
           <svg viewBox="0 0 382.5 382.5" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <pattern

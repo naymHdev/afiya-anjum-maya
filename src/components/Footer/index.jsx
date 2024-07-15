@@ -4,11 +4,8 @@ import { TfiArrowTopRight } from "react-icons/tfi";
 import Wave from "react-wavify";
 import "./footer.css";
 import Image from "next/image";
-import moment from "moment";
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  const currentTime = moment().format("h:mm a");
   return (
     <footer className="font-serif relative bg-gradient-to-b from-[#31077D] to-[#6340C0] text-white py-10 mt-56">
       <div className="absolute inset-x-0 -top-[150px]">
@@ -194,9 +191,6 @@ const Footer = () => {
             </a>
           </span>
         </p>
-      </div>
-      <div className=" absolute font-mono bottom-4 left-4 text-sm font-medium">
-        <p>{currentTime}</p>
       </div>
     </footer>
   );
