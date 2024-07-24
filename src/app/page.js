@@ -10,12 +10,10 @@ import NewsLatter from "@/components/NewsLatter";
 import ServicesTabs from "@/components/ServicesTabs";
 import Faq from "@/components/Faq";
 import ScrollToTop from "@/components/ScrollToTop";
-import BackgroundAnimation from "@/components/BackgroundAnimation";
 
 export default function Home() {
   return (
     <main className="font-serif">
-      <BackgroundAnimation />
       <div>
         <Banner />
         <Services />

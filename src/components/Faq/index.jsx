@@ -22,7 +22,7 @@ const Faq = () => {
           @WHAT MY CLIENTS SAYS
         </h2>
         <div>
-          <div className="mx-auto w-11/12 md:w-9/12 divide-y divide-white/5 rounded-xl bg-white/5">
+          <div className="mx-auto w-full md:w-9/12 divide-y divide-white/5 rounded-xl bg-white/5">
             {faqData?.map((faq, index) => (
               <Disclosure
                 as="div"

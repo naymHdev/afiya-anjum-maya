@@ -11,9 +11,9 @@ const WorkProcess = () => {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {workingProcess?.map((itm) => (
               <div key={Math.random()}>
-                <div className=" relative flex flex-col items-center justify-center">
+                <div className=" hover:cursor-pointer relative flex flex-col items-center justify-center">
                   <div
-                    className=" border-none rounded-full p-8 shadow-md"
+                    className="border-none rounded-full p-8 shadow-md"
                     style={{
                       backgroundImage: itm.color,
                       backgroundSize: "cover",
@@ -22,10 +22,7 @@ const WorkProcess = () => {
                   >
                     <Image src={itm.icon} height={70} width={70} alt="Icon" />
                   </div>
-                  <div
-                    className="absolute top-1/2 left-1/2 transform translate-x-[-50%] translate-y-[-50%] bg-white w-4 h-4 rounded-full border border-orange-500 shadow-md shadow-current"
-                    style={{ animation: "rotate-around 5s linear infinite" }}
-                  ></div>
+                  <div className="circle"></div>
                 </div>
                 <div className=" text-center mt-6">
                   <h2 className=" text-3xl font-semibold text-white">

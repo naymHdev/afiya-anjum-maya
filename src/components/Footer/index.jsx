@@ -4,6 +4,7 @@ import { TfiArrowTopRight } from "react-icons/tfi";
 import Wave from "react-wavify";
 import "./footer.css";
 import Image from "next/image";
+import Link from "next/link";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
@@ -27,13 +28,15 @@ const Footer = () => {
           {/* Fist section  || in address section */}
           <div>
             <div className=" ">
-              <Image
-                className=" mx-auto absolute -top-[80px] left-0"
-                src="/maya-logo.png"
-                height={200}
-                width={200}
-                alt="logo image"
-              />
+              <Link href="/">
+                <Image
+                  className=" mx-auto absolute -top-[80px] lg:left-0 -left-6"
+                  src="/maya-logo.png"
+                  height={200}
+                  width={200}
+                  alt="logo image"
+                />
+              </Link>
               <h2 className="text-2xl md:text-4xl font-bold text-white mt-16">
                 Digital Marketing Specialist
               </h2>
@@ -49,7 +52,7 @@ const Footer = () => {
                 <h2 className=" text-xl font-semibold">Follow Us</h2>
               </div>
               <div className="flex md:justify-center items-center space-x-2">
-                <div className=" bg-[#9842dd] rounded-full p-3">
+                <div className=" bg-[#9842dd] hover:bg-[#8209e5] hover:cursor-pointer rounded-full p-3">
                   <a
                     target="_blank"
                     href="https://facebook.com/mayarahman00/"
@@ -58,7 +61,7 @@ const Footer = () => {
                     <FaFacebook size={15} />
                   </a>
                 </div>
-                <div className=" bg-[#9842dd] rounded-full p-3">
+                <div className=" bg-[#9842dd] hover:bg-[#8209e5] hover:cursor-pointer rounded-full p-3">
                   <a
                     target="_blank"
                     href="https://linkedin.com/in/mstmaya/"
@@ -67,7 +70,7 @@ const Footer = () => {
                     <FaLinkedin size={15} />
                   </a>
                 </div>
-                <div className=" bg-[#9842dd] rounded-full p-3">
+                <div className=" bg-[#9842dd] hover:bg-[#8209e5] hover:cursor-pointer rounded-full p-3">
                   <a
                     target="_blank"
                     href="https://x.com/mayarahman30"
@@ -76,7 +79,7 @@ const Footer = () => {
                     <FaTwitter size={15} />
                   </a>
                 </div>
-                <div className=" bg-[#9842dd] rounded-full p-3">
+                <div className=" bg-[#9842dd] hover:bg-[#8209e5] hover:cursor-pointer rounded-full p-3">
                   <a
                     target="_blank"
                     href="https://instagram.com/maya_rahman20/following/
@@ -182,14 +185,14 @@ const Footer = () => {
       <div className=" my-10 border border-b border-[#FB923C] w-full border-dashed" />
 
       {/* Copyrights section */}
-      <div className=" flex items-center text-center px-5 justify-center gap-1">
+      <div className="md:flex items-center text-center px-5 justify-center gap-1">
         <p className="text-sm">
           © {currentYear} Company. All rights reserved by
-          <span>
-            <a target="_blank" className=" px-1 text-[#FB923C]" href="/">
-              @Maya Rahaman.
-            </a>
-          </span>
+        </p>
+        <p>
+          <a target="_blank" className=" px-1 text-[#FB923C]" href="/">
+            @Maya Rahaman.
+          </a>
         </p>
       </div>
     </footer>

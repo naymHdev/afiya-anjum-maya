@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { Suspense } from "react";
 import { FaCheckCircle } from "react-icons/fa";
 import PrimaryButton from "../Button";
 import Marquee from "react-fast-marquee";
@@ -95,7 +95,13 @@ const AboutUs = () => {
             </button>
           </div>
           <div className=" mt-10">
-            <PrimaryButton title="Discover More" />
+            <Suspense
+              fallback={
+                <p className=" text-xl font-medium text-white">Loading...</p>
+              }
+            >
+              <PrimaryButton title="Discover More" />
+            </Suspense>
           </div>
         </section>
       </div>

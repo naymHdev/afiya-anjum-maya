@@ -22,8 +22,8 @@ const WhyChooseUs = () => {
               @ WHY CHOOSE US
             </h4>
             <h2 className=" text-3xl md:text-5xl font-semibold text-primary-text">
-              We Follow <span className=" text-[#FB8B25]">Best Practice</span>{" "}
-              In Our Company
+              Me Follow <span className=" text-[#FB8B25]">Best Practice</span>{" "}
+              In My Services
             </h2>
             <p className=" font-medium text-secondary-text my-5">
               I help businesses bring ideas to life in the digital world by
