@@ -71,6 +71,9 @@ const Navbar = () => {
           <Link href="/contact" legacyBehavior>
             <a className="text-black menu-item">Contact</a>
           </Link>
+          <Link href="/contact" legacyBehavior>
+            <a className="text-black menu-item">Blog</a>
+          </Link>
           <div className=" flex items-center gap-3 hover:cursor-pointer">
             <button className=" text-primary-text border-b hover:transition border-orange-500 rounded-none font-extrabold hover:text-slate-800 hover:border-none">
               Lets Talk
@@ -83,7 +86,7 @@ const Navbar = () => {
       </div>
       {isOpen && (
         <motion.div
-          className="md:hidden fixed top-16 left-0 w-full h-full bg-slate-50 text-primary-text flex flex-col space-y-6"
+          className="md:hidden px-5 fixed top-16 left-0 w-full h-full bg-slate-50 text-primary-text flex flex-col space-y-6"
           initial="hidden"
           animate="visible"
           variants={menuVariants}
@@ -92,7 +95,7 @@ const Navbar = () => {
             <Link href="/" legacyBehavior>
               <div
                 onClick={toggleMenu}
-                className=" flex items-center justify-around hover:cursor-pointer mt-10"
+                className=" flex items-center justify-between hover:cursor-pointer mt-10"
               >
                 <p>Home</p>
                 <p>
@@ -106,7 +109,7 @@ const Navbar = () => {
             <Link href="/about" legacyBehavior>
               <div
                 onClick={toggleMenu}
-                className=" flex items-center justify-around hover:cursor-pointer"
+                className=" flex items-center justify-between hover:cursor-pointer"
               >
                 <p>About</p>
                 <p>
@@ -120,7 +123,7 @@ const Navbar = () => {
             <Link href="/services" legacyBehavior>
               <div
                 onClick={toggleMenu}
-                className=" flex items-center justify-around hover:cursor-pointer"
+                className=" flex items-center justify-between hover:cursor-pointer"
               >
                 <p>Services</p>
                 <p>
@@ -134,9 +137,22 @@ const Navbar = () => {
             <Link href="/contact" legacyBehavior>
               <div
                 onClick={toggleMenu}
-                className=" flex items-center justify-around hover:cursor-pointer"
+                className=" flex items-center justify-between hover:cursor-pointer"
               >
                 <p>Contact</p>
+                <p>
+                  <ArrowUpRightIcon className=" text-black size-6" />
+                </p>
+              </div>
+            </Link>
+          </div>
+          <div>
+            <Link href="/blog" legacyBehavior>
+              <div
+                onClick={toggleMenu}
+                className=" flex items-center justify-between hover:cursor-pointer"
+              >
+                <p>Blog</p>
                 <p>
                   <ArrowUpRightIcon className=" text-black size-6" />
                 </p>
