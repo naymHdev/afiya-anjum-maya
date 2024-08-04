@@ -1,3 +1,4 @@
+import GetInTouch from "@/components/GetInTouch";
 import { ChevronRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -75,6 +76,7 @@ const Contact = () => {
           </section>
         </div>
       </div>
+      <GetInTouch />
     </>
   );
 };
