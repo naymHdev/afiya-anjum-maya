@@ -13,8 +13,11 @@ const GetInTouch = () => {
 
   return (
     <>
-      <div className=" mt-20 max-w-7xl mx-auto px-4 md:px-6 lg:px-10">
-        <div className=" space-y-5 text-center py-20">
+      <div
+        className=" bg-center bg-no-repeat bg-cover mt-20 max-w-7xl mx-auto px-4 md:px-6 lg:px-10 py-20"
+        style={{ backgroundImage: "url(/contact/getin-bg.jpg)" }}
+      >
+        <div className=" space-y-5 text-center">
           <button className=" px-8 py-3 rounded-full bg-[#7155B7] text-white text-xl font-semibold">
             GET IN TOUCH
           </button>
