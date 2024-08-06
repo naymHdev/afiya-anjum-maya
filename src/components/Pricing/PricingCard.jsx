@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { BsCheck2Circle } from "react-icons/bs";
 
@@ -38,17 +39,16 @@ const PricingCard = () => {
               <span className=" text-secondary-text font-medium">/Month</span>
             </p>
           </div>
-          <div className=" flex items-center justify-center mt-8">
-            <button className=" bg-custom-gradient w-full py-3 text-white font-medium rounded-full">
-              Choose Plan
-            </button>
-          </div>
+          <Link href="/contact">
+            <div className=" flex items-center justify-center mt-8">
+              <button className=" bg-custom-gradient w-full py-3 text-white font-medium rounded-full">
+                Choose Plan
+              </button>
+            </div>
+          </Link>
         </div>
         {/* Premium Plan Card */}
         <div className=" rounded-3xl shadow-md px-5 py-8 md:py-16 bg-custom-gradient relative md:-my-10">
-          {/* <div className="absolute top-0 right-0 bg-blue-500 text-white text-sm font-bold px-2 py-2 rounded-bl-full">
-            Popular
-          </div> */}
           <h1 className=" text-4xl font-bold text-white">Premium</h1>
           <div className=" space-y-5 mt-8">
             <div className=" flex items-center gap-2">
@@ -78,11 +78,13 @@ const PricingCard = () => {
               <span className="font-medium">/Month</span>
             </p>
           </div>
-          <div className=" flex items-center justify-center mt-12">
-            <button className=" bg-gradient-to-r from-blue-600 to-blue-200 border-none w-full py-3 text-white font-medium rounded-full">
-              Choose Plan
-            </button>
-          </div>
+          <Link href="/contact">
+            <div className=" flex items-center justify-center mt-12">
+              <button className=" bg-gradient-to-r from-blue-600 to-blue-200 border-none w-full py-3 text-white font-medium rounded-full">
+                Choose Plan
+              </button>
+            </div>
+          </Link>
         </div>
         {/* Advanced card */}
         <div className=" rounded-3xl shadow-md px-5 py-8">
@@ -119,11 +121,13 @@ const PricingCard = () => {
               <span className=" text-secondary-text font-medium">/Month</span>
             </p>
           </div>
-          <div className=" flex items-center justify-center mt-12">
-            <button className=" bg-custom-gradient border-none w-full py-3 text-white font-medium rounded-full">
-              Choose Plan
-            </button>
-          </div>
+          <Link href="/contact">
+            <div className=" flex items-center justify-center mt-12">
+              <button className=" bg-custom-gradient border-none w-full py-3 text-white font-medium rounded-full">
+                Choose Plan
+              </button>
+            </div>
+          </Link>
         </div>
       </div>
     </>

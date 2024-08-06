@@ -71,7 +71,7 @@ const Navbar = () => {
           <Link href="/contact" legacyBehavior>
             <a className="text-black menu-item">Contact</a>
           </Link>
-          <Link href="/contact" legacyBehavior>
+          <Link href="/blog" legacyBehavior>
             <a className="text-black menu-item">Blog</a>
           </Link>
           <div className=" flex items-center gap-3 hover:cursor-pointer">
@@ -146,6 +146,7 @@ const Navbar = () => {
               </div>
             </Link>
           </div>
+          <hr />
           <div>
             <Link href="/blog" legacyBehavior>
               <div
